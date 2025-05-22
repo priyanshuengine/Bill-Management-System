@@ -1,84 +1,38 @@
 # Billing System for a Retail Shop
 
-A simple and easy-to-use **console-based Billing System** built in Java. This application allows users to add products with quantities and prices, view the shopping cart, and checkout with automatic total calculation.
+[![Java](https://img.shields.io/badge/Java-17-blue?logo=java&logoColor=white)](https://www.oracle.com/java/) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+A simple, console-based **Billing System** built in Java. This app lets users add products with quantity and price, view the cart, and checkout with the total bill calculated.
 
 ---
 
 ## Features
 
-- Add products with name, quantity, and price per unit  
-- View cart with detailed product list and subtotal  
+- Add products with name, quantity, and unit price  
+- View detailed cart summary with subtotal and total  
 - Checkout to finalize the bill and clear the cart  
-- Simple menu-driven console interface
+- Intuitive, menu-driven console interface
 
 ---
 
-## Technologies Used
+## Technologies
 
-- Java (Core Java)  
-- No external libraries or GUI — runs on the console
+- Java SE (Standard Edition)  
+- No external dependencies
 
 ---
 
 ## Project Structure
 
+```plaintext
 BillingSystemJava/
 ├── src/
-│ └── com/
-│ └── billingsystem/
-│ ├── BillingSystem.java
-│ └── Product.java
-└── README.md
+│   └── com/
+│       └── billingsystem/
+│           ├── BillingSystem.java
+│           └── Product.java
+├── README.md
+└── LICENSE
 
-yaml
-Copy
-Edit
 
----
-
-## How to Run
-
-1. **Download or clone the repository** and extract it if needed.
-
-2. Open a terminal or command prompt and navigate to the `src` directory:
-
-   ```bash
-   cd path/to/BillingSystemJava/src
-Compile the Java source files:
-
-bash
-Copy
-Edit
-javac com/billingsystem/*.java
-Run the main program:
-
-bash
-Copy
-Edit
-java com.billingsystem.BillingSystem
-Follow the interactive menu to add products, view cart, checkout, or exit.
-
-Sample Interaction
-mathematica
-Copy
-Edit
-=== Billing System ===
-
-1. Add Product
-2. View Cart
-3. Checkout
-4. Exit
-Choose an option: 1
-Enter product name: Pen
-Enter quantity: 3
-Enter price per unit: 15
-Product added.
-
---- Cart Items ---
-Pen x 3 @ ₹15.0 = ₹45.0
-Total: ₹45.00
-Author
-Priyanshu
-
-License
-This project is licensed under the MIT License.
